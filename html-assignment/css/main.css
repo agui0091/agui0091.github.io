@@ -1,0 +1,48 @@
+
+body{
+
+  font-family: cursive;
+  font-size: 18px;
+
+}
+
+header, footer{
+
+  background-color: aquamarine;
+}
+
+.site-title{
+
+  color: blueviolet;
+}
+
+#my-image{
+
+  box-shadow: 0 0 2px 1px black;
+}
+
+ul{
+  list-style-type: square;
+}
+
+h2 + .mi-clase :nth-child(odd) {
+
+  background-color: hotpink;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a{
+  background-color: darksalmon;
+  border: 2px solid grey;
+}
+
+a:hover, a:focus {
+  background-color: rgb(98, 98, 215);
+}
