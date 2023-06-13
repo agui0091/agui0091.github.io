@@ -35,12 +35,11 @@ nav ul {
 
 a {
   text-decoration: none;
-}
-
-a{
   background-color: darksalmon;
   border: 2px solid grey;
 }
+
+
 
 a:hover, a:focus {
   background-color: rgb(98, 98, 215);
