@@ -24,7 +24,7 @@ ul{
   list-style-type: square;
 }
 
-h2 + .mi-clase :nth-child(odd) {
+h2 + .hobbies :nth-child(odd) {
 
   background-color: hotpink;
 }
