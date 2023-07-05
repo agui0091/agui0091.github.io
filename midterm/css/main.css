@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;  
+
+}
+
+ 
+
+body{
+ background-color: #aad4cf;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 1.4;
+}
+
+.wrapper{
+  background-color: #d5ecea ;
+  max-width: 1024px;
+  margin: 0 auto;
+   
+}
+
+ 
+h1{
+  position:absolute;
+  color: white;
+  font-weight: lighter;
+  font-size: 50px;
+  width: 1024px;
+  top: 25%;
+  text-align:center;
+}
+
+/*organize menu*/
+ul :nth-child(2) {
+  border-left: 1px solid black ;
+  border-right: 1px solid black;
+}
+
+
+
+
+.display ul {
+  margin-top: 0%;
+  text-align:center;
+  
+}
+  
+
+  
+
+.display li {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 20px;
+  display: inline-block;
+  width: 30%;
+}
+  
+  
+/*decoration display*/
+  .display li a {
+    text-decoration: none;
+    color: black;font-weight: 600;
+  }
+
+
+ 
+  h2{
+    font-size: 35px;
+    margin-bottom: 0%;
+    
+  }  
+ 
+
+  #lone-starfish{
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+
+  }
+
+  .container{
+
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 1%;
+    padding-right: 2%;
+    
+  }
+
+h3{
+margin-top: 5% ;
+margin-bottom: 0;
+font-size: 30px;
+
+}
+
+/*class for align list*/
+.align{
+  padding-left: 2%;
+ }
+
+ /*border style for the box*/
+.contact{
+  width: 980px;
+  height:100% ;
+  padding: 8px;
+  border: 5px;
+  margin: 1% ;
+  border-style: groove;
+
+}
+
+
+
+input[type=text] {
+
+  width: 940px;
+  height: 40px;
+  border: none;
+  border-spacing: 30px;
+  margin-bottom: 30px;
+  
+  }
+
+  
+textarea {
+  width: 940px;
+  height: 100px;
+  border: 3px;
+  
+}
+
+h4 {
+font-size: 20px;
+
+}
+  
+button{
+ 
+  background-color: transparent;
+
+}
+
+footer{
+  
+  text-align: right;
+  margin-right: 35px;
+  font-weight: bold;
+}
+
