@@ -3,8 +3,8 @@
 }
 
 body {
-  background-color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
 
   margin: 0;
@@ -14,6 +14,36 @@ body {
   max-width: 95%;
   margin: 0 auto;
 }
+
+img {
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 4.768rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.241rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.563rem;
+  font-weight: 700;
+
+  margin: 0;
+}
+
+h4{
+  font-size: 1rem;
+  font-weight:700;
+}
+
+
+
 .search-input {
 
   width: calc(100% - 3.5rem);
@@ -49,15 +79,3 @@ body {
 
 
 
-h1 {
-  font-size: 1.650rem;
-}
-
-h2 {
-  font-size: 1.424rem;
-}
-
-h3 {
-  font-size: 1.266rem;
-  margin: 0;
-}
