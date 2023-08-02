@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.search-input {
+
+  width: calc(100% - 3.5rem);
+}
+
+.search-input ~ button {
+  width:3rem
+}
+
+.nav-list li {
+  text-align: center;
+  padding: 1rem
+
+}
+
+
+.logo-stars {
+
+  width: 5em;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.display il {
+  margin-top: 0%;
+  display: inline;
+  
+}
+
+
+
+h1 {
+  font-size: 1.602rem;
+}
+
+h2 {
+  font-size: 1.424rem;
+}
+
+h3 {
+  font-size: 1.266rem;
+  margin: 0;
+}
