@@ -610,7 +610,7 @@ margin: 0 auto;
 
 /*team grid*/
 
-.team-grid {
+.team-grid .tgrid {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 0rem;
@@ -619,14 +619,28 @@ grid-template-areas:
     'txt2 img2';
 }
 
+.tgrid .block-team:nth-child(1) {
+  grid-area: img;
+}
+
+.tgrid .block-team:nth-child(2) {
+  grid-area: txt;
+}
+
+.tgrid .block-team:nth-child(3) {
+  grid-area: txt2;
+}
+
+.tgrid .block-team:nth-child(4) {
+  grid-area: img2;
+}
+
 
 /*contact*/
 .contact-us-grid-area {
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-
     grid-template-areas: 
       'form map'
       'form map'
