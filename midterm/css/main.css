@@ -132,12 +132,12 @@ input[type=text] {
   }
 
   
-textarea {
-  width: 940px;
-  height: 100px;
-  border: 3px;
-  
-}
+  textarea {
+    width: 940px;
+    height: 100px;
+    border: 3px;
+    
+  }
 
 h4 {
 font-size: 20px;
